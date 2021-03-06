@@ -1237,7 +1237,6 @@ button {
   left: 0;
   opacity: 1;
   position: fixed;
-	background-size: cover;
   top: 0;
 }
 
@@ -1306,6 +1305,7 @@ button {
 }
 
 #bg {
+  background-size: 2250px auto;
   width: 6750px;
 }
 
@@ -1868,6 +1868,7 @@ body.is-preload #footer {
   }
 
   #bg {
+    background-size: 1500px auto;
     width: 4500px;
   }
 }
@@ -1942,6 +1943,7 @@ body.is-preload #footer {
   }
 
   #bg {
+    background-size: 750px auto;
     width: 2250px;
   }
 }
@@ -2016,6 +2018,7 @@ body.is-preload #footer {
   }
 
   #bg {
+    background-size: 300px auto;
     width: 900px;
   }
 
@@ -2089,6 +2092,7 @@ body.is-preload #footer {
     }
 
     #bg {
+      background-size: 412.5px auto;
       width: 1237.5px;
     }
   }
