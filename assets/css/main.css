@@ -1233,11 +1233,13 @@ button {
 
   background: #348cb2 url("../../images/bg.jpg") bottom left;
   background-repeat: repeat-x;
-  height: 100%;
+  height: 100vh;
+	width: 100%;
+  top: 0;
   left: 0;
   opacity: 1;
   position: fixed;
-  top: 0;
+	background-size: cover;
 }
 
 @-moz-keyframes bg {
@@ -1305,7 +1307,6 @@ button {
 }
 
 #bg {
-  background-size: 2250px auto;
   width: 6750px;
 }
 
@@ -1866,11 +1867,6 @@ body.is-preload #footer {
       transform: translate3d(-1500px, 0, 0);
     }
   }
-
-  #bg {
-    background-size: 1500px auto;
-    width: 4500px;
-  }
 }
 
 /* Normal */
@@ -1940,11 +1936,6 @@ body.is-preload #footer {
       -ms-transform: translate3d(-750px, 0, 0);
       transform: translate3d(-750px, 0, 0);
     }
-  }
-
-  #bg {
-    background-size: 750px auto;
-    width: 2250px;
   }
 }
 
@@ -2017,11 +2008,6 @@ body.is-preload #footer {
     }
   }
 
-  #bg {
-    background-size: 300px auto;
-    width: 900px;
-  }
-
   /* Mobile (Portrait) */
 
   @media screen and (max-width: 480px) {
@@ -2089,11 +2075,6 @@ body.is-preload #footer {
         -ms-transform: translate3d(-412.5px, 0, 0);
         transform: translate3d(-412.5px, 0, 0);
       }
-    }
-
-    #bg {
-      background-size: 412.5px auto;
-      width: 1237.5px;
     }
   }
 }
